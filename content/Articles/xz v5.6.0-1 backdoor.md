@@ -8,7 +8,7 @@ For those who are not aware — the library `liblzma`, part of the `xz` package,
 Moreover, the backdoor exists only in the `.tar` archives attached to releases 5.6.0 and 5.6.1, while on Github the source code archives are only for "testing" the library, in an *obfuscated* form.
 
 `liblzma` is also sometimes a dependency of OpenSSH. 
-Usually, this can happen when the distro patches OpenSSH to support `Systemd` notifications, causing `libsystemd` to depend on `liblzma`. Therefore, vanilla OpenSSH is not vulnerable to this backdoor ([source](https://t.me/hackthishit/83?comment=365))
+Usually, this can happen when the distro patches OpenSSH to support `Systemd` notifications, causing `libsystemd` to depend on `liblzma`. Therefore, vanilla OpenSSH is not vulnerable to this backdoor ([source](https://archlinux.org/news/the-xz-package-has-been-backdoored/))
 
 Even more interestingly, the backdoor was discovered **not** by a security researcher, but by an ordinary programmer who got curious about "why CPU usage increases 10 times when connecting via SSH."
 
