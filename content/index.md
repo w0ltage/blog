@@ -1,5 +1,7 @@
 ---
 title: Hi there
+tags:
+  - index
 ---
 ## 👋 Hi there, I'm Artyom Bulgakov
 
