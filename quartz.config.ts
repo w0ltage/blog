@@ -12,7 +12,7 @@ const config: QuartzConfig = {
     pageTitleSuffix: "",
     enableSPA: true,
     enablePopovers: true,
-    analytics: { provider: 'posthog', apiKey: 'phc_9sUcDVCDfZfxIpUlRJZyTEe1j7rvvakX02wwq09kteW', host: 'w0ltage.github.io' },
+    analytics: { provider: 'posthog', apiKey: 'phc_9sUcDVCDfZfxIpUlRJZyTEe1j7rvvakX02wwq09kteW', host: 'https://eu.i.posthog.com' },
     locale: "en-US",
     baseUrl: "quartz.jzhao.xyz",
     ignorePatterns: ["private", "templates", ".obsidian"],
