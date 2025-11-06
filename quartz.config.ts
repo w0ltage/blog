@@ -14,7 +14,7 @@ const config: QuartzConfig = {
     enablePopovers: true,
     analytics: { provider: 'posthog', apiKey: 'phc_9sUcDVCDfZfxIpUlRJZyTEe1j7rvvakX02wwq09kteW', host: 'https://eu.i.posthog.com' },
     locale: "en-US",
-    baseUrl: "quartz.jzhao.xyz",
+    baseUrl: "w0ltage.github.io/blog",
     ignorePatterns: ["private", "templates", ".obsidian"],
     defaultDateType: "modified",
     theme: {
