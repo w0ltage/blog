@@ -33,8 +33,7 @@ Now, let's break down how the backdoor gets onto the system and compromises it:
 Done! 
 Now, when connecting over SSH, in the context before key authentication, the process executes code controlled by the attacker =)
 
-Summarizing the backdoor in a picture:
-
-![[xz-backdoor-nutshell.png]]
+Summarizing the backdoor in a picture
+![[Pasted image 20251108181231.png]]
 
 For advanced pwners, malware developers, and other interested parties, it is recommended to read the [original email describing the backdoor](https://openwall.com/lists/oss-security/2024/03/29/4) and the [description of the backdoor situation on GitHub](https://gist.github.com/thesamesam/223949d5a074ebc3dce9ee78baad9e27).
